@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Harry Potter</title>
+    <style>
+        body {
+            background-color: #1D1F29;
+            color: #F5F5F5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Harry P', Arial, sans-serif;
+            font-size: 42px;
+            margin-bottom: 30px;
+            color: #FFD700;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #A30000;
+            color: #F5F5F5;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #870000;
+        }
+
+        .harry-potter-bg {
+            background-image: url('harrypotter_bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        .harry-potter-logo {
+            max-width: 200px;
+            margin: 0 auto 40px;
+            display: block;
+        }
+
+        @font-face {
+            font-family: 'Harry P';
+            src: url('harryp.otf');
+        }
+    </style>
+</head>
+<body>
+    <div class="container harry-potter-bg">
+        <img class="harry-potter-logo" src="hr.png" >
+        <h1>Quiz Harry Potter</h1>
+        <p>
+            <a class="button" href="connexion.html">Connecter vous</a>
+        </p>
+        <p>
+            <a class="button" href="inscription.html">Inscrivez vous</a>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,332 @@
+{
+  "quiz":{
+    "questions":[
+    {
+      "question": "Quel est le nom du célèbre château où se déroule une grande partie de l'action dans Harry Potter ?",
+      "options": ["Poudlard", "Beauxbâtons", "Durmstrang"],
+      "answer": "Poudlard"
+    },
+    {
+      "question": "Quel est le nom du meilleur ami de Harry Potter ?",
+      "options": ["Ron Weasley", "Draco Malfoy", "Hermione Granger"],
+      "answer": "Ron Weasley"
+    },
+    {
+      "question": "Quelle est la maison à Poudlard à laquelle appartient Harry Potter ?",
+      "options": ["Gryffondor", "Poufsouffle", "Serpentard"],
+      "answer": "Gryffondor"
+    },
+    {
+      "question": "Quel est le nom du sorcier maléfique et principal antagoniste de la série Harry Potter ?",
+      "options": ["Voldemort", "Lucius Malefoy", "Bellatrix Lestrange"],
+      "answer": "Voldemort"
+    },
+    {
+      "question": "Quelle est la matière enseignée par Severus Rogue à Poudlard ?",
+      "options": ["Potions", "Défense contre les forces du Mal", "Métamorphose"],
+      "answer": "Potions"
+    },
+    {
+      "question": "Comment s'appelle le gardien des clés et des lieux à Poudlard ?",
+      "options": ["Rubeus Hagrid", "Argus Rusard", "Filius Flitwick"],
+      "answer": "Rubeus Hagrid"
+    },
+    {
+      "question": "Quel est le nom de l'animal de compagnie de Harry Potter ?",
+      "options": ["Hedwige", "Croûtard", "Norbert"],
+      "answer": "Hedwige"
+    },
+    {
+      "question": "Quel est le nom de l'objet magique permettant de voyager dans le temps dans le troisième livre ?",
+      "options": ["Retourneur de Temps", "Cape d'Invisibilité", "Vif d'or"],
+      "answer": "Retourneur de Temps"
+    },
+    {
+      "question": "Quelle est la devise de Poudlard ?",
+      "options": ["Draco dormiens nunquam titillandus", "Hogwarts, School of Witchcraft and Wizardry", "Nitwit, blubber, oddment, tweak"],
+      "answer": "Draco dormiens nunquam titillandus"
+    },
+    {
+      "question": "Qui est le directeur de Poudlard dans le premier livre de la série ?",
+      "options": ["Albus Dumbledore", "Severus Rogue", "Minerva McGonagall"],
+      "answer": "Albus Dumbledore"
+    },
+    {
+      "question": "Quel est le nom du tournoi qui a lieu dans le quatrième livre, opposant trois écoles de sorcellerie ?",
+      "options": ["Tournoi des Trois Sorciers", "Tournoi des Maisons", "Coupe de Feu"],
+      "answer": "Tournoi des Trois Sorciers"
+    },
+    {
+      "question": "Quel est le nom du chat d'Hermione Granger ?",
+      "options": ["Croûtard", "Hedwige", "Pattenrond"],
+      "answer": "Pattenrond"
+    },
+    {
+      "question": "Quel est le nom du professeur de vol sur balai à Poudlard ?",
+      "options": ["Sophia Bibine", "Rolanda Bibine", "Amelia Bibine"],
+      "answer": "Rolanda Bibine"
+    },
+    {
+      "question": "Quelle est la maison à Poudlard à laquelle appartient Drago Malefoy ?",
+      "options": ["Serpentard", "Gryffondor", "Serdaigle"],
+      "answer": "Serpentard"
+    },
+    {
+      "question": "Comment s'appelle le père de Ron Weasley ?",
+      "options": ["Arthur Weasley", "Percy Weasley", "Bill Weasley"],
+      "answer": "Arthur Weasley"
+    },
+    {
+      "question": "Quel est le nom de la sorcière qui enseigne la divination à Poudlard ?",
+      "options": ["Sibylle Trelawney", "Minerva McGonagall", "Bathilda Tourdesac"],
+      "answer": "Sibylle Trelawney"
+    },
+    {
+      "question": "Quel est le vrai nom de Voldemort ?",
+      "options": ["Tom Jedusor", "Le Chicaneur", "Tom Elvis Jedusor"],
+      "answer": "Tom Elvis Jedusor"
+    },
+    
+    {
+      "question": "Quel est le nom du jeu de balai pratiqué par les sorciers dans la série Harry Potter ?",
+      "options": ["Quidditch", "Bludger", "Vif d'or"],
+      "answer": "Quidditch"
+    },
+    {
+      "question": "Quel est le nom de l'elfe de maison travaillant pour la famille Malefoy ?",
+      "options": ["Dobby", "Kreattur", "Winky"],
+      "answer": "Dobby"
+    },
+    {
+      "question": "Quel est le nom du professeur de défense contre les forces du Mal dans le troisième livre ?",
+      "options": ["Remus Lupin", "Dolores Ombrage", "Gilderoy Lockhart"],
+      "answer": "Remus Lupin"
+    },
+    {
+      "question": "Quel est le nom de la maison d'édition qui publie les livres de la série Harry Potter ?",
+      "options": ["Bloomsbury", "Gallimard", "Scholastic"],
+      "answer": "Bloomsbury"
+    },
+    {
+      "question": "Quel est le nom de la boutique de baguette dans le Chemin de Traverse ?",
+      "options": ["Ollivander", "La baguette d'or", "Royaume du Hibou"],
+      "answer": "Ollivander"
+    },
+    {
+      "question": "Comment s'appelle le frère jumeau de Fred Weasley ?",
+      "options": ["George Weasley", "Percy Weasley", "Bill Weasley"],
+      "answer": "George Weasley"
+    },
+    {
+      "question": "Quel est le nom de la créature fantastique gardant la banque de Gringotts ?",
+      "options": ["Un dragon", "Un troll", "Un basilic"],
+      "answer": "Un dragon"
+    },
+    {
+      "question": "Quel est le nom du fantôme de la maison Gryffondor à Poudlard ?",
+      "options": ["Nick Quasi-Sans-Tête", "Le Baron Sanglant", "Peeves"],
+      "answer": "Nick Quasi-Sans-Tête"
+    },
+    {
+      "question": "Quel est le nom de la famille chez qui Harry Potter est hébergé avant d'aller à Poudlard ?",
+      "options": ["Dursley", "Weasley", "Malefoy"],
+      "answer": "Dursley"
+    },
+    {
+      "question": "Quel est le nom du premier film adapté de la série Harry Potter ?",
+      "options": ["Harry Potter à l'école des sorciers", "Harry Potter et la Chambre des Secrets", "Harry Potter et le Prisonnier d'Azkaban"],
+      "answer": "Harry Potter à l'école des sorciers"
+    },
+    {
+      "question": "Quel est le nom de la plante magique utilisée pour soigner la pétrification dans la série Harry Potter ?",
+      "options": ["La Mandragore", "La Belladone", "Le Muguet"],
+      "answer": "La Mandragore"
+    },
+    {
+      "question": "Quel est le nom du professeur de métamorphose à Poudlard ?",
+      "options": ["Minerva McGonagall", "Sybille Trelawney", "Pomona Chourave"],
+      "answer": "Minerva McGonagall"
+    },
+    {
+      "question": "Quel est le nom du directeur de la maison Serpentard à Poudlard ?",
+      "options": ["Dolores Ombrage", "Severus Rogue", "Lucius Malefoy"],
+      "answer": "Severus Rogue"
+    },
+    {
+      "question": "Quel est le nom du professeur de divination à Poudlard ?",
+      "options": ["Sibylle Trelawney", "Minerva McGonagall", "Bathilda Tourdesac"],
+      "answer": "Sibylle Trelawney"
+    },
+    {
+      "question": "Quelle est l'anne de la mort des parents d'Harry Potter ?",
+      "options": ["1981", "1991", "1985"],
+      "answer": "1981"
+    },
+    {
+      "question": "Quel est le nom du groupe à qui enseigne la defense contre les forces du mal dans le cinquième livre ?",
+      "options": ["Club de duel", "l'armer de dumbleldore", "le club de defense"],
+      "answer": "l'armer de dumbleldore"
+    },
+    {
+      "question": "Quel train prend Harry pour aller à Poudlard ?",
+      "options": ["le RER", "Thomas le train", "Poudlard Express"],
+      "answer": "Poudlard Express"
+    },
+    {
+      "question": "Qui a joué Rôle de Harry Potter ?",
+      "options": ["Daniel Radcliffe", "Rupert Grint", "Adrien Raynaud"],
+      "answer": "Daniel Radcliffe"
+    },
+    {
+      "question": "Quelle est la formule du sortilège de mort ?",
+      "options": ["Reducto", "Paulus Mortus", "Avada Kedavra"],
+      "answer": "Avada Kedavra"
+    },
+    {
+      "question": "quels sont les prénoms des parents d'harry potter ?",
+      "options": ["Lily et james", "sirus et Bella", "alex et lisa"],
+      "answer": "Lily et james"
+    },
+    {
+      "question": "quel animal est présent sur le blason de gryffondor ?",
+      "options": ["Gryffon", "Lion", "Tigre"],
+      "answer": "Lion"
+    },
+    {
+      "question": "quelle potion permet à un sorcier de prendre l'apparence d'un autre humain ?",
+      "options": ["Polynectar", "polynome", "polyvin"],
+      "answer": "Polynectar"
+    },
+    {
+      "question": "Combien de points sont attribués à l'équipe qui attrape le Vif d'or ?",
+      "options": ["100", "110", "150"],
+      "answer": "150"
+    },
+    {
+      "question": "qui est le parrain d'harry potter ?",
+      "options": ["james", "sirus", "remus"],
+      "answer": "james"
+    },
+    {
+      "question": "quel est le prénom du co-fondateur de poudlard ayant donné son nom à la maison Serpentard ?",
+      "options": ["Godric", "Salazar", "Alexandre"],
+      "answer": "Salazar"
+    },
+    {
+      "question": "quel est le nom du 4e livre de la saga harry potter ?",
+      "options": ["Harry potter et la coupe de Feu", "Harry potter et le tournoi mortel", "Harry Potter et le Prisonnier d'Azkaban"],
+      "answer": "Harry potter et la coupe de Feu"
+    },
+    {
+      "question": "quel est le nom utilisé pour désigner un sorcier avec les 2 parents moldus ?",
+      "options": ["Né Moldus", "sang impure", "on les appelles pas"],
+      "answer": "Né Moldus"
+    },
+    {
+      "question": "de quel maison Ponoma Chourave est t'elle la directrice ?",
+      "options": ["Serdaigle", "Poufsouffle", "Serpentard"],
+      "answer": "Poufsouffle"
+    },
+    {
+      "question": "où harry et ron vont-il avoir un accident avec la voiture du père de ron ?",
+      "options": ["dans le saule cogneur", "dans la forêt interdite", "dans ynov"],
+      "answer": "dans le saule cogneur"
+    },
+    {
+      "question": "dans quel pay la faille weasley se rend en vacance dans le 3e livres ?",
+      "options": ["Ukraine", "Roumanie", "Egypte"],
+      "answer": "Egypte"
+    },
+    {
+      "question": "qui à désarmer dumbledore dans le 6e livre ?",
+      "options": ["Drago", "Severus", "Voldemort"],
+      "answer": "Drago"
+    },
+    {
+      "question": "qui à tué Severus Rogue ?",
+      "options": ["Harry", "Nagini", "Voldemort"],
+      "answer": "Nagini"
+    },
+    {
+      "question": "Quelle est le nom de la boisson populaire que les étudiants prenne aux Trois Balais ?",
+      "options": ["Coca", "Whisky pur feu", "Bierre au beurre"],
+      "answer": "Bierre au beurre"
+    },
+    {
+      "question": "quel est le nom de l'objet dans lequel Voldemort va cacher son ame ?",
+      "options": ["les Relique de la mort", "un Mortcruxes", "un Horcruxes"],
+      "answer": "un Horcruxes"
+    },
+    {
+      "question": "Qui accompagne Hermione au bal de noel ?",
+      "options": ["Harry", "Neville", "Viktor"],
+      "answer": "Viktor"
+    },
+    {
+      "question": "Dans quelle coffres harry,Hermione et ron vont s'introduire ?",
+      "options": ["des Lestranges", "des Malfoy", "des Croupton"],
+      "answer": "des Lestranges"
+    },
+    {
+      "question": "quel est le nom de l'ordre que créer dumbledore pour contrer Voldemort ?",
+      "options": ["l'ordre du phenix", "l'ordre du dragon", "l'ordre des chauves"],
+      "answer": "l'ordre du phenix"
+    },
+    {
+      "question": "quel créature est Buck ?",
+      "options": ["Dragon", "Serpent", "hippogriffe"],
+      "answer": "hippogriffe"
+    },
+    {
+      "question": "Sous qquel animal peter pettigrow se cache t'il appret avoir trahit les Potter ?",
+      "options": ["Chien", "Chat", "Rat"],
+      "answer": "Rat"
+    },
+    {
+      "question": "quelle langue parle harry pour réussir à parler au serpents ?",
+      "options": ["Arabe", "Fourchelang", "Yoruba"],
+      "answer": "Fourchelang"
+    },
+    {
+      "question": "quels sortilège utilise harry our tuer Voldemort ?",
+      "options": ["Avada Kedavra", "Diffindo", "Expelliarmus"],
+      "answer": "Expelliarmus"
+    },
+    {
+      "question": "qui a inventé le Déluminateur ?",
+      "options": ["Remus", "Flamel", "Dumbledore"],
+      "answer": "Dumbledore"
+    },
+    {
+      "question": "quel est le prenom du père de dumbledore ?",
+      "options": ["Perceval", "Brian", "Wulfric"],
+      "answer": "Perceval"
+    },
+    {
+      "question": "De qquel type de créature Filius Flitwick est-il un descendant ?",
+      "options": ["Gobelin", "Gnome", "Lutin"],
+      "answer": "Gobelin"
+    },
+    {
+      "question": "qui est né 1 jour avant harry potter ?",
+      "options": ["Ron", "Adrien", "Neville"],
+      "answer": "Neville"
+    },
+    {
+      "question": "Quelle est l'insulte que dit Drago à Hermione qui lui vaut un coup de poing ?",
+      "options": ["Sang de pute", "Sang de rat", "sang de bourbe"],
+      "answer": "sang de bourbe"
+    },
+    {
+      "question": "qu'utilise Drago pour faire venir les mangemorts à poudlard ?",
+      "options": ["un Balai", "Un basilic", "Une armoire"],
+      "answer": "Une armoire"
+    },
+    {
+      "question": "qui incarle voldemort dans la saga ?",
+      "options": ["Rupert Grint", "Michael Gambon", "Ralph Fiennes"],
+      "answer": "Ralph Fiennes"
+    }
+  ]
+}
+}

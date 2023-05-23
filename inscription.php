@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Connexion à la base de données
 $servername = "localhost";
 $username = "root";
@@ -29,8 +30,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
 
         if ($conn->query($sql) === TRUE) {
+            $_SESSION['username'] = $username;
             echo "Inscription réussie ! Redirection vers la page d'accueil...";
-            echo "<script>setTimeout(function(){ window.location.href = 'home.html'; }, 3000);</script>";
+            echo "<script>setTimeout(function(){ window.location.href = 'home.php'; }, 3000);</script>";
             exit();
         } else {
             echo "Erreur lors de l'inscription : " . $conn->error;

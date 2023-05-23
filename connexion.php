@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Connexion à la base de données
 $servername = "localhost";
 $username = "root";
@@ -22,9 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $conn->query($sql);
 
     if ($result->num_rows == 1) {
+        $_SESSION['username'] = $username;
         // Connexion réussie
         echo "Connexion réussie ! Redirection vers la page d'accueil...";
-        echo "<script>setTimeout(function(){ window.location.href = 'home.html'; }, 3000);</script>";
+        echo "<script>setTimeout(function(){ window.location.href = 'home.php'; }, 3000);</script>";
         exit();
     } else {
         // Identifiants de connexion invalides

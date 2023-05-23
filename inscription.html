@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - Quiz Harry Potter</title>
+    <style>
+        body {
+            background-color: #1D1F29;
+            color: #F5F5F5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Harry P', Arial, sans-serif;
+            font-size: 42px;
+            margin-bottom: 30px;
+            color: #FFD700;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .form-group input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #A30000;
+            color: #F5F5F5;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #870000;
+        }
+
+        .harry-potter-bg {
+            background-image: url('harrypotter_bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        .harry-potter-logo {
+            max-width: 200px;
+            margin: 0 auto 40px;
+            display: block;
+        }
+
+        @font-face {
+            font-family: 'Harry P';
+            src: url('harryp.otf');
+        }
+    </style>
+</head>
+<body>
+    <div class="container harry-potter-bg">
+        <img class="harry-potter-logo" src="hr.png" alt="Harry Potter Logo">
+        <h1>Inscription</h1>
+        <form action="inscription.php" method="POST">
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirmer le mot de passe :</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div class="form-group">
+                <button class="button" type="submit">S'inscrire</button>
+            </div>
+        </form>
+        <p>Deja inscrit ? <a href="connexion.html">Connecter vous ici</a>.</p>
+    </div>
+</body>
+</html>

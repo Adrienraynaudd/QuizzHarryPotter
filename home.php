@@ -8,10 +8,21 @@
 </head>
 <?php
 session_start();
+if (!isset($_SESSION['scoreFin'])){
+    $_SESSION['scoreFin'] = 0;
+}
+$_SESSION['score'] = 0;
+$_SESSION['wrongAnswers'] = array();
+// Charger les données du quiz depuis le fichier JSON
+$jsonData = file_get_contents('question.json');
+$quizData = json_decode($jsonData, true);
+shuffle($quizData['quiz']['questions']);
+$_SESSION['quizData'] = $quizData;
+
 if (isset($_SESSION['username']) && $_SESSION['username'] != "") {
     echo "Bonjour " . $_SESSION['username'] . " !";
     if (isset($_SESSION['score']) && $_SESSION['score'] != "") {
-        echo "<br>Score : " . $_SESSION['score'];
+        echo "<br>Score : " . $_SESSION['scoreFin'];
     }else{
         echo "<br>Score : 0";
     }

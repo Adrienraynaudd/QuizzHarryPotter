@@ -1,6 +1,8 @@
 <?php
 session_start();
 // Connexion à la base de données
+$_ENV['TEST_VARIABLE'] = 'test_value';
+echo $_ENV['TEST_VARIABLE'];
 $servername = $_ENV['SERVERNAME'];
 $port = $_ENV['PORT'];
 $username = $_ENV['USERNAME'];

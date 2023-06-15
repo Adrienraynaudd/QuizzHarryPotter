@@ -4,7 +4,7 @@ session_start();
 $servername = "2a01:e0a:46a:2780:545c:98ff:fe16:72cc";
 $port = "3310";
 $username = "root";
-$password = "";
+$password = "7Dk7SQneHt39a6";
 $dbname = "quiz";
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);

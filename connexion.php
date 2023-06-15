@@ -1,10 +1,10 @@
 <?php
 session_start();
 // Connexion à la base de données
-$servername = "[2a01:e0a:46a:2780:545c:98ff:fe16:72cc]";
-$port = "3310";
-$username = "root";
-$password = "7Dk7SQneHt39a6";
+$servername = $_ENV['SERVERNAME'];
+$port = $_ENV['PORT'];
+$username = $_ENV['USERNAME'];
+$password = $_ENV['PASSWORD'];
 $dbname = "quiz";
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);

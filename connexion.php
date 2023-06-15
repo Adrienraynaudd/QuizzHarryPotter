@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Connexion à la base de données
-$servername = "localhost";
+$servername = "[2a01:e0a:46a:2780:545c:98ff:fe16:72cc]:3310";
 $username = "root";
 $password = "";
 $dbname = "quiz";
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['username'] = $username;
         // Connexion réussie
         echo "Connexion réussie ! Redirection vers la page d'accueil...";
-        echo "<script>setTimeout(function(){ window.location.href = 'home.php'; }, 3000);</script>";
+        echo "<script>setTimeout(function(){ window.location.href = 'index.php'; }, 3000);</script>";
         exit();
     } else {
         // Identifiants de connexion invalides

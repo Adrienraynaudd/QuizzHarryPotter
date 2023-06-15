@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
         exit();
     } else {
         echo "Fin du quiz ! Redirection vers la page de score...";
-        echo "<script>setTimeout(function(){ window.location.href = 'http://localhost/QuizzHarryPotter/fin.php'; }, 3000);</script>";
+        echo "<script>setTimeout(function(){ window.location.href = window.location.origin + '/fin.php'; }, 3000);</script>";
         exit();
     }
 }
